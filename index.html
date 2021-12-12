@@ -1,1 +1,48 @@
-<h1>test</h1>
+<form action="action.php" method="POST">
+    <div class="">
+        <div class="">
+            <label for="form-field-name2" class="">День</label>
+            <div class="">
+                <select name="form_fields[name2]" id="form-field-name2" class="" required="required" aria-required="true">
+                    <option value="400">Понедельник</option>
+                    <option value="400">Вторник</option>
+                    <option value="400">Среда</option>
+                    <option value="400">Четверг</option>
+                    <option value="400">Пятница</option>
+                    <option value="900">Суббота</option>
+                    <option value="900">Воскресенье</option>
+                </select>
+            </div>
+        </div>
+        <div class="">
+            <label for="form-field-tel2" class="">Время</label>
+                <select name="form_fields[tel2]" id="form-field-tel2" class="" required="required" aria-required="true">
+                        <option value="1">До 20:00</option><option value="2">После 20:00</option>
+                </select>
+        </div>
+        <div class="">
+            Детям до 3-х лет включительно вход бесплатный (необходимы документы), сопровождающим вход бесплатный
+        </div>
+        <div class="">
+            <label for="form-field-field_b50556f" class="">Ребенок под присмотром</label>
+                <span class="">
+                    <input type="checkbox" value="1" id="form-field-field_b50556f-0" name="form_fields[field_b50556f]">
+                    <label for="form-field-field_b50556f-0">Ребенок под присмотром</label>
+                </span>
+        </div>
+        <div class="">
+            <label for="form-field-field_66d0ec5" class="">Количество часов</label>
+                <input type="number" name="form_fields[field_66d0ec5]" id="form-field-field_66d0ec5" class="" placeholder="Количество часов" value="Главная" min="" max="">
+        </div>
+        <div class="">
+            <h5>Итого:</h5>
+            <input type="text" name="out_sum" placeholder="Сумма платежа" required>
+        </div>
+        <div class="">
+            <input type="checkbox" name="form_fields[field_bf650b1]" id="form-field-field_bf650b1" class="" required="required" aria-required="true" checked="checked">
+            <label for="form-field-field_bf650b1">Согласен на обработку персональных данных</label>			
+        </div>
+            <input type=submit value='Оплатить'>
+    </div>
+</form>
+
